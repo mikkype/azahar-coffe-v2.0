@@ -8,7 +8,7 @@ function init() {
         method: 'POST'
     }
     //ruta donde se consume el json
-    fetch('json/carta.json')
+    fetch('')
         .then(result => result.json())
         .then(data => {
             console.log(data)
