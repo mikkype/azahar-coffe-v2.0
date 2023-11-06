@@ -10,13 +10,13 @@ function init() {
     //ruta donde se consume el json
     fetch('json/carta.json')
         .then(result => result.json())
-        .then(data => {
+        .then(test => {
             console.log(test)
             if (Array.isArray(test.carta)) {
 
 
 
-                data.carta.forEach(elemento => {
+                test.carta.forEach(elemento => {
 
                     mostrar.innerHTML += 
                             `
