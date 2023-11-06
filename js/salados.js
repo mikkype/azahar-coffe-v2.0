@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", init)
 function init(){
-    console.log('DOM CARGADO')
+    console.log('DOM cargado')
 
     
     fetch('json/carta-salados.json')
