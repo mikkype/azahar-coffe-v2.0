@@ -3,13 +3,13 @@ function init(){
     console.log('DOM CARGADO')
 
     
-    fetch('json/carta.json')
+    fetch('json/carta-salados.json')
       .then(response => response.json())
       .then(data => {
         const elementosProductos = document.querySelectorAll('.producto');
   
         elementosProductos.forEach((elemento, index) => {
-          const producto = data.carta[index];
+          const producto = data.salados[index];
   
           if (producto) {
             const nombreElemento = elemento.querySelector('.nombre');
@@ -28,7 +28,3 @@ function init(){
         console.error('Hubo un error al cargar el archivo JSON:', error);
       });
   }
-
-  
-
-
