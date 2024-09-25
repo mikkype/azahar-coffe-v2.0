@@ -16,4 +16,10 @@
     height: 48px;
 }
 
-    
+footer{
+    padding: 40px  10px;
+    background-color: #E9ECEF;
+    border: 0.5px  grey solid;
+    border-left: 0;
+    border-right: 0;
+}

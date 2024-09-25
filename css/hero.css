@@ -2,12 +2,15 @@
     background-image: url(../img/portada/cafeteria.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%; /* Ancho 100% para que se ajuste al tamaño de la pantalla */
-    max-width: 1200px; /* Ancho máximo de 1200px */
+    width: 100%;
+    /* Ancho 100% para que se ajuste al tamaño de la pantalla */
+    max-width: 1200px;
+    /* Ancho máximo de 1200px */
     height: 600px;
-    margin: auto ; 
+    margin: auto;
     border-radius: 50px;
     position: relative;
+    margin-top: 30px;
 }
 
 
@@ -22,6 +25,7 @@
     justify-content: center;
     border-radius: 50px;
 }
+
 /*adaptar pntalla*/
 @media (max-width: 768px) {
     .container-hero {
@@ -46,10 +50,4 @@
     border-radius: 10px;
     margin: 10px;
 }
-
-    
-    
-    
-  
-
 

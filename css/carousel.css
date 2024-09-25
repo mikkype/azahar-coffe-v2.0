@@ -1,3 +1,9 @@
+#carouselMain{
+    padding: 20px 0;
+
+}
+
+
 .c-item {
     height: 65rem;
 }
@@ -6,19 +12,6 @@
     height: 100%;
 }
     
-.custom-carousel-button {
-    background-color: #7D5952; 
-    padding: 10px;
-    border-radius: 50%; 
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 50%; 
-    transform: translateY(-50%); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .custom-carousel-icon {
     font-size: 40px; 
 }

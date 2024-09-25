@@ -14,7 +14,7 @@
 <body class="">
 
   <!--header-->
-  <div class="container text-center py-4 bg-body-secondary">
+  <div class=" text-center py-4 bg-body-secondary logo-principal">
     <header class="row">
       <div class="col-12">
         <img src="img/portada/logo.png" width="120px" height="120px">
@@ -24,40 +24,48 @@
   </div>
 
   <!--nav-->
-  <div class="text-center">
-    <div class="container bg-body-tertiary">
-      <nav class="row justify-content-between align-items-center text-uppercase">
-        <!---->
-        <!--carta-->
-        <a href="carta.html" class="col-12 col-md col-lg text-decoration-none text-dark">
-          <img src="img/portada/carta-de-vinos.png" width="60px" height="60px">
-          carta</a>
-        <!--aboutus-->
 
-        <a href="aboutus.html" class="col-12 col-md col-lg text-decoration-none text-dark">
-          <img src="img/portada/comunidad.png" width="60px" height="60px">
-          about us</a>
-        <!--faq-->
+  <div class="box-nav ">
 
-        <a href="faq.html" class="col-12 col-md col-lg text-decoration-none text-dark">
-          <img src="img/portada/globos-de-texto.png" width="60px" height="60px">
-          FAQ</a>
-        <!--regreso a inicio-->
-        <a href="inicio.html" class="col-12 col-md col-lg text-decoration-none text-dark">
-          <img src="img/portada/casa.png" width="60px" height="60px">
-          inicio</a>
-        <!--sello de calidad-->
-        <p class="col-12 col-md col-lg">
-          <img src="img/portada/descarga.png" width="90px" height="90px">
-        </p>
-      </nav>
-    </div>
+    <nav class="row  justify-content-between align-items-center text-uppercase">
+      <!---->
+      <!--carta-->
+      <a href="carta.html" class="col-12 col-md col-lg text-decoration-none text-dark">
+        <img src="img/portada/carta-de-vinos.png">
+        carta</a>
+      <!--aboutus-->
+
+      <a href="aboutus.html" class="col-12 col-md col-lg text-decoration-none text-dark">
+        <img src="img/portada/comunidad.png">
+        about us</a>
+      <!--faq-->
+
+      <a href="faq.html" class="col-12 col-md col-lg text-decoration-none text-dark">
+        <img src="img/portada/globos-de-texto.png">
+        FAQ</a>
+      <!--regreso a inicio-->
+      <a href="inicio.html" class="col-12 col-md col-lg text-decoration-none text-dark">
+        <img src="img/portada/casa.png">
+        inicio</a>
+      <!--sello de calidad-->
+      <span class="col-12 col-md col-lg sello">
+        <img src="img/portada/descarga.png" width="90px" height="90px">
+      </span>
+    </nav>
   </div>
+
   <!----------------------------------------------main---------------------------------------------------->
 
+  <dialog>
+    <p>sadaskfamdf</p>
+    <form  method="dialog">
+      <button>ok</button>
+    </form>
+  </dialog>
+  <button id="button">Abrir modak</button>
   <!--slider carrusel-->
 
-  <div id="carouselMain" class="carousel slide py-4">
+  <div id="carouselMain" class="carousel slide " data-bs-ride="carousel" data-bs-interval="3000">
     <div class="carousel-inner">
       <div class="carousel-item active c-item">
         <img src="img/carrusel/c3.jpg" class="d-block w-100 c-img" alt="...">
@@ -82,7 +90,7 @@
   </div>
 
   <!-----hero------>
-  <section class="hero">
+  <section class="hero ">
     <div class="container container-hero">
       <h1 class="text-white text-center">El verdadero sabor de Sevilla</h1>
       <p class="text-white text-center font-weight-bold">Vive una exquisita experiencia culinaria por un precio
@@ -94,24 +102,40 @@
 
   <!-----panel------>
   <main>
-    <div class="container">
-      <nav class="row align-items-center text-uppercase py-4">
+    <div class="container muestras-container">
+      <nav class="row align-items-center justify-content-evenly text-uppercase py-4 muestras">
 
-        <a href="Carta-dulces.html" class="col-12 col-sm col-md text-decoration-none "><img src="img/inicio/dulces.jpg"
-            width="250px" height="250px">
-          <span class="d-block text-white text-center c-p mt-3">Dulces</span></a>
+        <div class="col-12 col-sm col-md box-img-muestras">
+          <div class="body-muestras">
+            <img src="img/inicio/dulces.jpg" width="250px" height="250px">
+          </div>
+          <a href="Carta-dulces.html" class="d-block text-white text-center c-p mt-3">Dulces</a>
+        </div>
 
-        <a href="Carta-salados.html" class="col-12 col-sm col-md text-decoration-none"><img src="img/inicio/salados.jpg"
-            width="250px" height="250px">
-          <span class="d-block text-white text-center c-p mt-3">Salados</span></a>
+        <div class="col-12 col-sm col-md box-img-muestras">
+          <div class="body-muestras">
+            <img src="img/inicio/salados.jpg" width="250px" height="250px">
+          </div>
 
-        <a href="Carta-bebidas.html" class="col-12 col-sm col-md text-decoration-none"><img src="img/inicio/bebidas.jpg"
-            width="250px" height="250px">
-          <span class="d-block text-white text-center c-p mt-3">Bebidas</span></a>
+          <a href="Carta-salados.html" class="d-block text-white text-center c-p mt-3">Salados</a>
+        </div>
 
-        <a href="Carta-premiados.html" class="col-12 col-sm col-md text-decoration-none">
-          <img src="img/inicio/premiados.jpg" width="250px" height="250px">
-          <span class="d-block text-white text-center c-p mt-3">Premiados</span></a>
+        <div class="col-12 col-sm col-md box-img-muestras">
+          <div class="body-muestras">
+            <img src="img/inicio/bebidas.jpg" width="250px" height="250px">
+          </div>
+
+          <a href="Carta-bebidas.html" class="d-block text-white text-center c-p mt-3">Bebidas</a>
+        </div>
+
+        <div class="col-12 col-sm col-md box-img-muestras">
+          <div class="body-muestras">
+
+            <img src="img/inicio/premiados.jpg" width="250px" height="250px">
+          </div>
+
+          <a href="Carta-premiados.html" class="d-block text-white text-center c-p mt-3">Premiados</a>
+        </div>
 
       </nav>
     </div>
@@ -124,11 +148,11 @@
 
 
   <!----------------------------------------------FOOTER ------------------------------------------------->
-  <footer class="text-center text-reset py-4">
-    <div class="container bg-primary-subtle">
-      <nav class="row justify-content-between align-items-center">
+  <footer class="text-center text-reset">
+    <nav class="row justify-content-between align-items-center">
+      <div class="col-md-6">
         <!--logo-->
-        <a href="inicio.html" class="col-12 col-md-3 text-dark d-flex align-items-center text-decoration-none">
+        <a  href="inicio.html" class="col-12 col-md-3 text-dark d-flex align-items-center text-decoration-none">
           <img src="img/portada/logo.png" width="30px" height="30px" class="img-fluid mr-4">
           <span class="px-3 text-uppercase">azahar coffee</span>
         </a>
@@ -137,25 +161,26 @@
           <img src="img/rrss/mapa.png" width="30px" height="30px" class="img-fluid mr-4">
           <span class="px-3 text-uppercase">ubicanos</span>
         </a>
-        <!--telefono-->
-        <li class="col-12 col-md-3 text-dark d-flex align-items-center">
-          <img src="img/rrss/whatsapp.png" width="30px" height="30px" class="img-fluid mr-3">
-          <span class="px-3 d-block">644252525</span>
+      </div>
+
+      <!--telefono-->
+      <li class="col-12 col-md-3 text-dark d-flex align-items-center">
+        <img src="img/rrss/whatsapp.png" width="30px" height="30px" class="img-fluid mr-3">
+        <span class="px-3 d-block">644252525</span>
+      </li>
+      <!--redes sociales-->
+      <ul class="col-12 col-md-3 list-unstyled">
+        <li class="font-weight-bold text-uppercase text-dark">redes sociales</li>
+        <li class="d-flex justify-content-between">
+          <a href="#" class="text-reset">
+            <img src="img/rrss/facebook.png" alt="" width="30px" height="30px" class="img-fluid">
+          </a>
+          <a href="#" class="text-reset">
+            <img src="img/rrss/instagram.png" alt="" width="30px" height="30px" class="img-fluid">
+          </a>
         </li>
-        <!--redes sociales-->
-        <ul class="col-12 col-md-3 list-unstyled">
-          <li class="font-weight-bold text-uppercase text-dark">redes sociales</li>
-          <li class="d-flex justify-content-between">
-            <a href="#" class="text-reset">
-              <img src="img/rrss/facebook.png" alt="" width="30px" height="30px" class="img-fluid">
-            </a>
-            <a href="#" class="text-reset">
-              <img src="img/rrss/instagram.png" alt="" width="30px" height="30px" class="img-fluid">
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+      </ul>
+    </nav>
   </footer>
 </body>
 
